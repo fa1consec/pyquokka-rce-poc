@@ -33,14 +33,6 @@ For remote testing, update `location` in `exploit.py` to the target's IP.
 ### Customize the Payload
 Edit the command in `exploit.py` (line ~15). Keep it harmless for testing, e.g., `echo "PoC success" > /tmp/exploited.txt`.
 
-## Files
-
-### requirements.txt
-```
-pyquokka==0.3.1
-pyarrow
-```
-
 ## Attack Flow
 See the [Mermaid diagram](https://mermaid.live/view#pasted-09f4a0a0-0b0e-4b0e-9b0e-0b0e4b0e9b0e) for visualization:
 
